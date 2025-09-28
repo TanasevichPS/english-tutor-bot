@@ -1,0 +1,11 @@
+.env
+*.log
+__pycache__/
+.qodo/
+.vscode/
+*.pyc
+.DS_Store
+uv.lock
+.replit
+*.bat
+*.db
