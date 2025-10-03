@@ -1,24 +1,17 @@
-# Core dependencies
 python-telegram-bot==20.7
 python-dotenv==1.0.0
-
-# Audio processing
 pydub==0.25.1
 gtts==2.3.2
 speechrecognition==3.10.0
-
-# AI/ML dependencies - используем доступные версии PyTorch
 torch --index-url https://download.pytorch.org/whl/cpu
 transformers==4.30.2
 trl==0.7.1
-
-# Data processing
 numpy==1.24.3
 scipy==1.10.1
 scikit-learn==1.2.2
-
-# Utilities
 pillow==9.5.0
 requests==2.31.0
-
 urllib3==1.26.16
+setuptools==65.5.0
+wheel==0.38.4
+
