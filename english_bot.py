@@ -56,7 +56,7 @@ def get_env_var(var_name: str, required: bool = False) -> Optional[str]:
         return None
     return value
 
-TOKEN = "8441593899:AAGkfmWGwPJOaYZxhJtnxu5kbpIKiUDDLTY"
+TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 
 # Model Configuration
 MODEL_NAME = "microsoft/DialoGPT-medium"  # или любую другую модель, которую хотите использовать
